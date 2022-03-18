@@ -1,3 +1,5 @@
+
+
 body * {
     text-align: center;
     color: #000f08;
@@ -7,13 +9,19 @@ body * {
     font-family: 'Open Sans', sans-serif;
   }
 
+  label.contact_form {
+    color: rgb(252, 249, 249);
+    text-align: left;
+  }
+  
+
 .imagen-viajes {
 max-width: 2.5%!important;
 
 }
 
 .form-label {
-  color: white;
+  color: rgb(0, 150, 80);
 }
 .imagen-viajes .texto-viajes {
   display:block;
@@ -81,6 +89,15 @@ max-width: 2.5%!important;
 .card .card1 {
   background-color: black!important;
 }
+
+card {
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 0 0px 20px 0 rgba(0,0,0,0.2);
+  background-color: #1798c1!important;
+  transition: 0.3s;
+}
+
 
 
 .card {
@@ -224,6 +241,8 @@ left: 20px;
       margin:0;
   }
 
+
+  
 
 .card {
   margin: 100 auto;
